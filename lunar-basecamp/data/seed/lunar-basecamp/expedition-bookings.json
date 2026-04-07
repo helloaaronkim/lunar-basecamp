@@ -1,0 +1,84 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "Expedition_Booking__c", "referenceId": "Expedition_001" },
+      "Expedition_Name__c": "Tycho Shadow Traverse",
+      "Explorer__c": "@Explorer_Dmitri_Volkov",
+      "Launch_Date__c": "2026-04-29",
+      "Return_Date__c": "2026-05-05",
+      "Landing_Site__c": "Tycho Crater",
+      "Status__c": "Confirmed",
+      "Total_Cost__c": 285000
+    },
+    {
+      "attributes": { "type": "Expedition_Booking__c", "referenceId": "Expedition_002" },
+      "Expedition_Name__c": "Mare Tranquillitatis Heritage Walk",
+      "Explorer__c": "@Explorer_Sarah_Chen",
+      "Launch_Date__c": "2026-05-13",
+      "Return_Date__c": "2026-05-16",
+      "Landing_Site__c": "Mare Tranquillitatis",
+      "Status__c": "Planned",
+      "Total_Cost__c": 92000
+    },
+    {
+      "attributes": { "type": "Expedition_Booking__c", "referenceId": "Expedition_003" },
+      "Expedition_Name__c": "Shackleton Ice Core Expedition",
+      "Explorer__c": "@Explorer_Amara_Okonkwo",
+      "Launch_Date__c": "2026-05-28",
+      "Return_Date__c": "2026-06-07",
+      "Landing_Site__c": "Shackleton Rim",
+      "Status__c": "Confirmed",
+      "Total_Cost__c": 472000
+    },
+    {
+      "attributes": { "type": "Expedition_Booking__c", "referenceId": "Expedition_004" },
+      "Expedition_Name__c": "Hadley Rille Navigation Drill",
+      "Explorer__c": "@Explorer_Marcus_Rodriguez",
+      "Launch_Date__c": "2026-06-18",
+      "Return_Date__c": "2026-06-23",
+      "Landing_Site__c": "Hadley Rille",
+      "Status__c": "Planned",
+      "Total_Cost__c": 158000
+    },
+    {
+      "attributes": { "type": "Expedition_Booking__c", "referenceId": "Expedition_005" },
+      "Expedition_Name__c": "Aristarchus Plateau Rim Survey",
+      "Explorer__c": "@Explorer_Yuki_Tanaka",
+      "Launch_Date__c": "2026-07-09",
+      "Return_Date__c": "2026-07-15",
+      "Landing_Site__c": "Aristarchus Plateau",
+      "Status__c": "Confirmed",
+      "Total_Cost__c": 246000
+    },
+    {
+      "attributes": { "type": "Expedition_Booking__c", "referenceId": "Expedition_006" },
+      "Expedition_Name__c": "Tycho Crater Night EVA",
+      "Explorer__c": "@Explorer_Amara_Okonkwo",
+      "Launch_Date__c": "2026-08-14",
+      "Return_Date__c": "2026-08-20",
+      "Landing_Site__c": "Tycho Crater",
+      "Status__c": "Planned",
+      "Total_Cost__c": 332000
+    },
+    {
+      "attributes": { "type": "Expedition_Booking__c", "referenceId": "Expedition_007" },
+      "Expedition_Name__c": "Shackleton Rim Solar Array Repair",
+      "Explorer__c": "@Explorer_Dmitri_Volkov",
+      "Launch_Date__c": "2026-09-10",
+      "Return_Date__c": "2026-09-17",
+      "Landing_Site__c": "Shackleton Rim",
+      "Status__c": "Planned",
+      "Total_Cost__c": 389000
+    },
+    {
+      "attributes": { "type": "Expedition_Booking__c", "referenceId": "Expedition_008" },
+      "Expedition_Name__c": "Tranquillitatis Habitat Expansion",
+      "Explorer__c": "@Explorer_Marcus_Rodriguez",
+      "Launch_Date__c": "2026-10-08",
+      "Return_Date__c": "2026-10-18",
+      "Landing_Site__c": "Mare Tranquillitatis",
+      "Status__c": "Planned",
+      "Total_Cost__c": 455000
+    }
+  ]
+}

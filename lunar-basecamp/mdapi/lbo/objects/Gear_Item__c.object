@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Inventory of lunar expedition rental equipment.</description>
+    <enableActivities>true</enableActivities>
+    <label>Gear Item</label>
+    <nameField>
+        <label>Gear Item Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Gear Items</pluralLabel>
+    <sharingModel>ReadWrite</sharingModel>
+    <fields>
+        <fullName>Item_Name__c</fullName>
+        <label>Item Name</label>
+        <length>100</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <label>Category</label>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value><fullName>Pressure Suit</fullName><default>false</default><label>Pressure Suit</label></value>
+                <value><fullName>Oxygen System</fullName><default>false</default><label>Oxygen System</label></value>
+                <value><fullName>Boots</fullName><default>false</default><label>Boots</label></value>
+                <value><fullName>Gloves</fullName><default>false</default><label>Gloves</label></value>
+                <value><fullName>Tether Kit</fullName><default>false</default><label>Tether Kit</label></value>
+                <value><fullName>Crater Anchor</fullName><default>false</default><label>Crater Anchor</label></value>
+                <value><fullName>Communication Device</fullName><default>false</default><label>Communication Device</label></value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Serial_Number__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>Serial Number</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Maintenance_Due_Date__c</fullName>
+        <label>Maintenance Due Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <label>Status</label>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value><fullName>Available</fullName><default>true</default><label>Available</label></value>
+                <value><fullName>Rented</fullName><default>false</default><label>Rented</label></value>
+                <value><fullName>Maintenance</fullName><default>false</default><label>Maintenance</label></value>
+                <value><fullName>Retired</fullName><default>false</default><label>Retired</label></value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Daily_Rental_Rate__c</fullName>
+        <label>Daily Rental Rate</label>
+        <precision>16</precision>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Purchase_Price__c</fullName>
+        <label>Purchase Price</label>
+        <precision>16</precision>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+</CustomObject>

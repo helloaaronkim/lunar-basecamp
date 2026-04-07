@@ -1,0 +1,112 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_001" },
+      "Expedition_Booking__c": "@Expedition_001",
+      "Gear_Item__c": "@Gear_001",
+      "Quantity__c": 2
+    },
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_002" },
+      "Expedition_Booking__c": "@Expedition_001",
+      "Gear_Item__c": "@Gear_005",
+      "Quantity__c": 2
+    },
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_003" },
+      "Expedition_Booking__c": "@Expedition_001",
+      "Gear_Item__c": "@Gear_006",
+      "Quantity__c": 1
+    },
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_004" },
+      "Expedition_Booking__c": "@Expedition_002",
+      "Gear_Item__c": "@Gear_002",
+      "Quantity__c": 4
+    },
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_005" },
+      "Expedition_Booking__c": "@Expedition_002",
+      "Gear_Item__c": "@Gear_003",
+      "Quantity__c": 3
+    },
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_006" },
+      "Expedition_Booking__c": "@Expedition_003",
+      "Gear_Item__c": "@Gear_007",
+      "Quantity__c": 3
+    },
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_007" },
+      "Expedition_Booking__c": "@Expedition_003",
+      "Gear_Item__c": "@Gear_010",
+      "Quantity__c": 2
+    },
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_008" },
+      "Expedition_Booking__c": "@Expedition_003",
+      "Gear_Item__c": "@Gear_013",
+      "Quantity__c": 2
+    },
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_009" },
+      "Expedition_Booking__c": "@Expedition_004",
+      "Gear_Item__c": "@Gear_004",
+      "Quantity__c": 2
+    },
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_010" },
+      "Expedition_Booking__c": "@Expedition_004",
+      "Gear_Item__c": "@Gear_011",
+      "Quantity__c": 3
+    },
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_011" },
+      "Expedition_Booking__c": "@Expedition_005",
+      "Gear_Item__c": "@Gear_001",
+      "Quantity__c": 2
+    },
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_012" },
+      "Expedition_Booking__c": "@Expedition_005",
+      "Gear_Item__c": "@Gear_009",
+      "Quantity__c": 2
+    },
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_013" },
+      "Expedition_Booking__c": "@Expedition_006",
+      "Gear_Item__c": "@Gear_005",
+      "Quantity__c": 3
+    },
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_014" },
+      "Expedition_Booking__c": "@Expedition_006",
+      "Gear_Item__c": "@Gear_014",
+      "Quantity__c": 3
+    },
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_015" },
+      "Expedition_Booking__c": "@Expedition_007",
+      "Gear_Item__c": "@Gear_006",
+      "Quantity__c": 2
+    },
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_016" },
+      "Expedition_Booking__c": "@Expedition_007",
+      "Gear_Item__c": "@Gear_015",
+      "Quantity__c": 4
+    },
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_017" },
+      "Expedition_Booking__c": "@Expedition_008",
+      "Gear_Item__c": "@Gear_007",
+      "Quantity__c": 3
+    },
+    {
+      "attributes": { "type": "Expedition_Gear__c", "referenceId": "ExpGear_018" },
+      "Expedition_Booking__c": "@Expedition_008",
+      "Gear_Item__c": "@Gear_010",
+      "Quantity__c": 2
+    }
+  ]
+}

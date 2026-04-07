@@ -1,0 +1,112 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "Safety_Certification__c", "referenceId": "Cert_001" },
+      "Explorer__c": "@Explorer_Sarah_Chen",
+      "Certification_Type__c": "Basic EVA",
+      "Issued_Date__c": "2025-05-20",
+      "Expiry_Date__c": "2026-05-20",
+      "Instructor_Name__c": "Cmdr. Helena Park",
+      "Pass_Status__c": true
+    },
+    {
+      "attributes": { "type": "Safety_Certification__c", "referenceId": "Cert_002" },
+      "Explorer__c": "@Explorer_Sarah_Chen",
+      "Certification_Type__c": "Crater Navigation",
+      "Issued_Date__c": "2025-11-18",
+      "Expiry_Date__c": "2026-11-18",
+      "Instructor_Name__c": "Lt. Owen Briggs",
+      "Pass_Status__c": true
+    },
+    {
+      "attributes": { "type": "Safety_Certification__c", "referenceId": "Cert_003" },
+      "Explorer__c": "@Explorer_Marcus_Rodriguez",
+      "Certification_Type__c": "Basic EVA",
+      "Issued_Date__c": "2025-03-12",
+      "Expiry_Date__c": "2026-03-12",
+      "Instructor_Name__c": "Dr. Leila Hassan",
+      "Pass_Status__c": true
+    },
+    {
+      "attributes": { "type": "Safety_Certification__c", "referenceId": "Cert_004" },
+      "Explorer__c": "@Explorer_Marcus_Rodriguez",
+      "Certification_Type__c": "Emergency Repair",
+      "Issued_Date__c": "2025-12-02",
+      "Expiry_Date__c": "2026-12-02",
+      "Instructor_Name__c": "Eng. Mateo Alvarez",
+      "Pass_Status__c": true
+    },
+    {
+      "attributes": { "type": "Safety_Certification__c", "referenceId": "Cert_005" },
+      "Explorer__c": "@Explorer_Yuki_Tanaka",
+      "Certification_Type__c": "Crater Navigation",
+      "Issued_Date__c": "2024-10-15",
+      "Expiry_Date__c": "2025-10-15",
+      "Instructor_Name__c": "Lt. Owen Briggs",
+      "Pass_Status__c": true
+    },
+    {
+      "attributes": { "type": "Safety_Certification__c", "referenceId": "Cert_006" },
+      "Explorer__c": "@Explorer_Yuki_Tanaka",
+      "Certification_Type__c": "Low-G Climbing",
+      "Issued_Date__c": "2025-09-05",
+      "Expiry_Date__c": "2026-09-05",
+      "Instructor_Name__c": "Cmdr. Helena Park",
+      "Pass_Status__c": true
+    },
+    {
+      "attributes": { "type": "Safety_Certification__c", "referenceId": "Cert_007" },
+      "Explorer__c": "@Explorer_Dmitri_Volkov",
+      "Certification_Type__c": "Basic EVA",
+      "Issued_Date__c": "2025-02-09",
+      "Expiry_Date__c": "2026-02-09",
+      "Instructor_Name__c": "Dr. Leila Hassan",
+      "Pass_Status__c": true
+    },
+    {
+      "attributes": { "type": "Safety_Certification__c", "referenceId": "Cert_008" },
+      "Explorer__c": "@Explorer_Dmitri_Volkov",
+      "Certification_Type__c": "Emergency Repair",
+      "Issued_Date__c": "2025-08-21",
+      "Expiry_Date__c": "2026-08-21",
+      "Instructor_Name__c": "Eng. Mateo Alvarez",
+      "Pass_Status__c": true
+    },
+    {
+      "attributes": { "type": "Safety_Certification__c", "referenceId": "Cert_009" },
+      "Explorer__c": "@Explorer_Dmitri_Volkov",
+      "Certification_Type__c": "Solar Radiation Protocol",
+      "Issued_Date__c": "2025-10-11",
+      "Expiry_Date__c": "2026-10-11",
+      "Instructor_Name__c": "Dr. Priya Menon",
+      "Pass_Status__c": true
+    },
+    {
+      "attributes": { "type": "Safety_Certification__c", "referenceId": "Cert_010" },
+      "Explorer__c": "@Explorer_Amara_Okonkwo",
+      "Certification_Type__c": "Low-G Climbing",
+      "Issued_Date__c": "2025-01-29",
+      "Expiry_Date__c": "2026-01-29",
+      "Instructor_Name__c": "Cmdr. Helena Park",
+      "Pass_Status__c": true
+    },
+    {
+      "attributes": { "type": "Safety_Certification__c", "referenceId": "Cert_011" },
+      "Explorer__c": "@Explorer_Amara_Okonkwo",
+      "Certification_Type__c": "Solar Radiation Protocol",
+      "Issued_Date__c": "2025-12-14",
+      "Expiry_Date__c": "2026-12-14",
+      "Instructor_Name__c": "Dr. Priya Menon",
+      "Pass_Status__c": true
+    },
+    {
+      "attributes": { "type": "Safety_Certification__c", "referenceId": "Cert_012" },
+      "Explorer__c": "@Explorer_Amara_Okonkwo",
+      "Certification_Type__c": "Crater Navigation",
+      "Issued_Date__c": "2025-04-30",
+      "Expiry_Date__c": "2026-04-30",
+      "Instructor_Name__c": "Lt. Owen Briggs",
+      "Pass_Status__c": true
+    }
+  ]
+}

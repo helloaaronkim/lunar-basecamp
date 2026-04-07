@@ -1,0 +1,154 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "Gear_Item__c", "referenceId": "Gear_001" },
+      "Item_Name__c": "Apollo Heritage Pressure Suit X7",
+      "Category__c": "Pressure Suit",
+      "Serial_Number__c": "LBO-2024-001",
+      "Maintenance_Due_Date__c": "2026-05-22",
+      "Status__c": "Available",
+      "Daily_Rental_Rate__c": 4800,
+      "Purchase_Price__c": 245000
+    },
+    {
+      "attributes": { "type": "Gear_Item__c", "referenceId": "Gear_002" },
+      "Item_Name__c": "CraterGrip Magnetic Boots",
+      "Category__c": "Boots",
+      "Serial_Number__c": "LBO-2024-002",
+      "Maintenance_Due_Date__c": "2026-06-14",
+      "Status__c": "Rented",
+      "Daily_Rental_Rate__c": 1200,
+      "Purchase_Price__c": 38000
+    },
+    {
+      "attributes": { "type": "Gear_Item__c", "referenceId": "Gear_003" },
+      "Item_Name__c": "HorizonLink Comm Headset",
+      "Category__c": "Communication Device",
+      "Serial_Number__c": "LBO-2024-003",
+      "Maintenance_Due_Date__c": "2026-04-28",
+      "Status__c": "Maintenance",
+      "Daily_Rental_Rate__c": 850,
+      "Purchase_Price__c": 22000
+    },
+    {
+      "attributes": { "type": "Gear_Item__c", "referenceId": "Gear_004" },
+      "Item_Name__c": "TitanThread Tether Kit",
+      "Category__c": "Tether Kit",
+      "Serial_Number__c": "LBO-2024-004",
+      "Maintenance_Due_Date__c": "2026-07-07",
+      "Status__c": "Available",
+      "Daily_Rental_Rate__c": 980,
+      "Purchase_Price__c": 26000
+    },
+    {
+      "attributes": { "type": "Gear_Item__c", "referenceId": "Gear_005" },
+      "Item_Name__c": "LunarBreath O2 System",
+      "Category__c": "Oxygen System",
+      "Serial_Number__c": "LBO-2024-005",
+      "Maintenance_Due_Date__c": "2026-05-30",
+      "Status__c": "Available",
+      "Daily_Rental_Rate__c": 3200,
+      "Purchase_Price__c": 146000
+    },
+    {
+      "attributes": { "type": "Gear_Item__c", "referenceId": "Gear_006" },
+      "Item_Name__c": "ShackletonPro Ice Anchor Set",
+      "Category__c": "Crater Anchor",
+      "Serial_Number__c": "LBO-2024-006",
+      "Maintenance_Due_Date__c": "2026-08-11",
+      "Status__c": "Available",
+      "Daily_Rental_Rate__c": 1500,
+      "Purchase_Price__c": 45000
+    },
+    {
+      "attributes": { "type": "Gear_Item__c", "referenceId": "Gear_007" },
+      "Item_Name__c": "Selene Mk-IV Pressure Suit",
+      "Category__c": "Pressure Suit",
+      "Serial_Number__c": "LBO-2024-007",
+      "Maintenance_Due_Date__c": "2026-06-01",
+      "Status__c": "Rented",
+      "Daily_Rental_Rate__c": 5000,
+      "Purchase_Price__c": 250000
+    },
+    {
+      "attributes": { "type": "Gear_Item__c", "referenceId": "Gear_008" },
+      "Item_Name__c": "RegolithGuard Gloves",
+      "Category__c": "Gloves",
+      "Serial_Number__c": "LBO-2024-008",
+      "Maintenance_Due_Date__c": "2026-04-19",
+      "Status__c": "Available",
+      "Daily_Rental_Rate__c": 620,
+      "Purchase_Price__c": 18000
+    },
+    {
+      "attributes": { "type": "Gear_Item__c", "referenceId": "Gear_009" },
+      "Item_Name__c": "AetherPulse Comm Relay",
+      "Category__c": "Communication Device",
+      "Serial_Number__c": "LBO-2024-009",
+      "Maintenance_Due_Date__c": "2026-09-05",
+      "Status__c": "Available",
+      "Daily_Rental_Rate__c": 1400,
+      "Purchase_Price__c": 41000
+    },
+    {
+      "attributes": { "type": "Gear_Item__c", "referenceId": "Gear_010" },
+      "Item_Name__c": "Polaris O2 Redundancy Pack",
+      "Category__c": "Oxygen System",
+      "Serial_Number__c": "LBO-2024-010",
+      "Maintenance_Due_Date__c": "2026-05-09",
+      "Status__c": "Maintenance",
+      "Daily_Rental_Rate__c": 2700,
+      "Purchase_Price__c": 98000
+    },
+    {
+      "attributes": { "type": "Gear_Item__c", "referenceId": "Gear_011" },
+      "Item_Name__c": "MoonStride Traction Boots",
+      "Category__c": "Boots",
+      "Serial_Number__c": "LBO-2024-011",
+      "Maintenance_Due_Date__c": "2026-07-30",
+      "Status__c": "Available",
+      "Daily_Rental_Rate__c": 1100,
+      "Purchase_Price__c": 34000
+    },
+    {
+      "attributes": { "type": "Gear_Item__c", "referenceId": "Gear_012" },
+      "Item_Name__c": "Helios Thermal Gloves",
+      "Category__c": "Gloves",
+      "Serial_Number__c": "LBO-2024-012",
+      "Maintenance_Due_Date__c": "2026-06-25",
+      "Status__c": "Retired",
+      "Daily_Rental_Rate__c": 500,
+      "Purchase_Price__c": 15000
+    },
+    {
+      "attributes": { "type": "Gear_Item__c", "referenceId": "Gear_013" },
+      "Item_Name__c": "RidgeLock Anchor Pair",
+      "Category__c": "Crater Anchor",
+      "Serial_Number__c": "LBO-2024-013",
+      "Maintenance_Due_Date__c": "2026-08-24",
+      "Status__c": "Rented",
+      "Daily_Rental_Rate__c": 1350,
+      "Purchase_Price__c": 39000
+    },
+    {
+      "attributes": { "type": "Gear_Item__c", "referenceId": "Gear_014" },
+      "Item_Name__c": "Orion Safety Tether Pro",
+      "Category__c": "Tether Kit",
+      "Serial_Number__c": "LBO-2024-014",
+      "Maintenance_Due_Date__c": "2026-10-02",
+      "Status__c": "Available",
+      "Daily_Rental_Rate__c": 1050,
+      "Purchase_Price__c": 29500
+    },
+    {
+      "attributes": { "type": "Gear_Item__c", "referenceId": "Gear_015" },
+      "Item_Name__c": "LunaWave EVA Comms Pack",
+      "Category__c": "Communication Device",
+      "Serial_Number__c": "LBO-2024-015",
+      "Maintenance_Due_Date__c": "2026-05-17",
+      "Status__c": "Rented",
+      "Daily_Rental_Rate__c": 1600,
+      "Purchase_Price__c": 52000
+    }
+  ]
+}

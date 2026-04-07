@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Lunar explorer profiles for expedition participants.</description>
+    <enableActivities>true</enableActivities>
+    <label>Lunar Explorer</label>
+    <nameField>
+        <label>Lunar Explorer Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Lunar Explorers</pluralLabel>
+    <sharingModel>ReadWrite</sharingModel>
+    <fields>
+        <fullName>Full_Name__c</fullName>
+        <label>Full Name</label>
+        <length>100</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <label>Email</label>
+        <type>Email</type>
+    </fields>
+    <fields>
+        <fullName>EVA_Hours__c</fullName>
+        <label>EVA Hours</label>
+        <precision>6</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Certification_Level__c</fullName>
+        <label>Certification Level</label>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Novice Crater Walker</fullName>
+                    <default>false</default>
+                    <label>Novice Crater Walker</label>
+                </value>
+                <value>
+                    <fullName>Advanced Lava Tube Explorer</fullName>
+                    <default>false</default>
+                    <label>Advanced Lava Tube Explorer</label>
+                </value>
+                <value>
+                    <fullName>Master Lunar Alpinist</fullName>
+                    <default>false</default>
+                    <label>Master Lunar Alpinist</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Medical_Clearance_Date__c</fullName>
+        <label>Medical Clearance Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Emergency_Contact__c</fullName>
+        <label>Emergency Contact</label>
+        <length>255</length>
+        <type>Text</type>
+    </fields>
+</CustomObject>

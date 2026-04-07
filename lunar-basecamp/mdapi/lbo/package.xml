@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Lunar_Explorer__c</members>
+        <members>Gear_Item__c</members>
+        <members>Expedition_Booking__c</members>
+        <members>Safety_Certification__c</members>
+        <members>Expedition_Gear__c</members>
+        <name>CustomObject</name>
+    </types>
+    <version>66.0</version>
+</Package>

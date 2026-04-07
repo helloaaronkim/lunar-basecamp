@@ -1,0 +1,49 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "Lunar_Explorer__c", "referenceId": "Explorer_Sarah_Chen" },
+      "Full_Name__c": "Sarah Chen",
+      "Email__c": "sarah.chen@lunarbasecampoutfitters.com",
+      "EVA_Hours__c": 82,
+      "Certification_Level__c": "Novice Crater Walker",
+      "Medical_Clearance_Date__c": "2026-03-18",
+      "Emergency_Contact__c": "Daniel Chen (+1-415-555-0121)"
+    },
+    {
+      "attributes": { "type": "Lunar_Explorer__c", "referenceId": "Explorer_Marcus_Rodriguez" },
+      "Full_Name__c": "Marcus Rodriguez",
+      "Email__c": "marcus.rodriguez@lunarbasecampoutfitters.com",
+      "EVA_Hours__c": 156,
+      "Certification_Level__c": "Advanced Lava Tube Explorer",
+      "Medical_Clearance_Date__c": "2026-01-27",
+      "Emergency_Contact__c": "Elena Rodriguez (+1-210-555-0188)"
+    },
+    {
+      "attributes": { "type": "Lunar_Explorer__c", "referenceId": "Explorer_Yuki_Tanaka" },
+      "Full_Name__c": "Yuki Tanaka",
+      "Email__c": "yuki.tanaka@lunarbasecampoutfitters.com",
+      "EVA_Hours__c": 274,
+      "Certification_Level__c": "Advanced Lava Tube Explorer",
+      "Medical_Clearance_Date__c": "2025-12-09",
+      "Emergency_Contact__c": "Aiko Tanaka (+81-90-5555-3001)"
+    },
+    {
+      "attributes": { "type": "Lunar_Explorer__c", "referenceId": "Explorer_Dmitri_Volkov" },
+      "Full_Name__c": "Dmitri Volkov",
+      "Email__c": "dmitri.volkov@lunarbasecampoutfitters.com",
+      "EVA_Hours__c": 421,
+      "Certification_Level__c": "Master Lunar Alpinist",
+      "Medical_Clearance_Date__c": "2026-02-22",
+      "Emergency_Contact__c": "Irina Volkov (+7-915-555-2210)"
+    },
+    {
+      "attributes": { "type": "Lunar_Explorer__c", "referenceId": "Explorer_Amara_Okonkwo" },
+      "Full_Name__c": "Amara Okonkwo",
+      "Email__c": "amara.okonkwo@lunarbasecampoutfitters.com",
+      "EVA_Hours__c": 498,
+      "Certification_Level__c": "Master Lunar Alpinist",
+      "Medical_Clearance_Date__c": "2026-04-01",
+      "Emergency_Contact__c": "Chike Okonkwo (+234-803-555-7721)"
+    }
+  ]
+}
