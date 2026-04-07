@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Bookings for lunar expeditions.</description>
+    <enableActivities>true</enableActivities>
+    <label>Expedition Booking</label>
+    <nameField>
+        <label>Expedition Booking Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Expedition Bookings</pluralLabel>
+    <sharingModel>ReadWrite</sharingModel>
+    <fields>
+        <fullName>Expedition_Name__c</fullName>
+        <label>Expedition Name</label>
+        <length>120</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Explorer__c</fullName>
+        <label>Explorer</label>
+        <referenceTo>Lunar_Explorer__c</referenceTo>
+        <relationshipLabel>Expedition Bookings</relationshipLabel>
+        <relationshipName>Expedition_Bookings</relationshipName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Launch_Date__c</fullName>
+        <label>Launch Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Return_Date__c</fullName>
+        <label>Return Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Landing_Site__c</fullName>
+        <label>Landing Site</label>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Tycho Crater</fullName>
+                    <default>false</default>
+                    <label>Tycho Crater</label>
+                </value>
+                <value>
+                    <fullName>Shackleton Rim</fullName>
+                    <default>false</default>
+                    <label>Shackleton Rim</label>
+                </value>
+                <value>
+                    <fullName>Hadley Rille</fullName>
+                    <default>false</default>
+                    <label>Hadley Rille</label>
+                </value>
+                <value>
+                    <fullName>Mare Tranquillitatis</fullName>
+                    <default>false</default>
+                    <label>Mare Tranquillitatis</label>
+                </value>
+                <value>
+                    <fullName>Aristarchus Plateau</fullName>
+                    <default>false</default>
+                    <label>Aristarchus Plateau</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <label>Status</label>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Planned</fullName>
+                    <default>true</default>
+                    <label>Planned</label>
+                </value>
+                <value>
+                    <fullName>Confirmed</fullName>
+                    <default>false</default>
+                    <label>Confirmed</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Total_Cost__c</fullName>
+        <label>Total Cost</label>
+        <precision>16</precision>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+</CustomObject>
