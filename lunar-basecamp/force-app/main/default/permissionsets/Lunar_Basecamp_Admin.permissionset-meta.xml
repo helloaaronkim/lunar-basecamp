@@ -107,6 +107,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Expedition_Booking__c.Compliance_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Safety_Certification__c.Explorer__c</field>
         <readable>true</readable>
     </fieldPermissions>
