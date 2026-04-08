@@ -1,0 +1,110 @@
+.dashboard-shell {
+    background: radial-gradient(circle at top, #14203d 0%, #0a1226 55%, #060b18 100%);
+    color: #d8e6ff;
+    border-radius: 0.75rem;
+    min-height: 18rem;
+}
+
+.subtitle {
+    color: #8ca4d6;
+    letter-spacing: 0.08em;
+}
+
+.mission-card {
+    background: linear-gradient(145deg, rgba(20, 35, 64, 0.95), rgba(10, 18, 40, 0.95));
+    border: 1px solid rgba(123, 154, 209, 0.28);
+    border-radius: 0.75rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.mission-header {
+    align-items: center;
+    border-bottom: 1px solid rgba(122, 143, 179, 0.2);
+    padding-bottom: 0.5rem;
+}
+
+.mission-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #f1f6ff;
+}
+
+.status-badge {
+    border-radius: 999px;
+    color: #ffffff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.15rem 0.6rem;
+    text-transform: uppercase;
+}
+
+.badge-green {
+    background: #2e8540;
+}
+
+.badge-yellow {
+    background: #ffb75d;
+    color: #251600;
+}
+
+.badge-red {
+    background: #c23934;
+}
+
+.photo-placeholder {
+    align-items: center;
+    background: linear-gradient(135deg, #4a6fa8, #8aa4d4);
+    border-radius: 999px;
+    color: #0b1730;
+    display: inline-flex;
+    font-size: 0.85rem;
+    font-weight: 700;
+    height: 2.25rem;
+    justify-content: center;
+    width: 2.25rem;
+}
+
+.detail-row {
+    display: flex;
+    gap: 0.45rem;
+    margin-top: 0.35rem;
+}
+
+.label {
+    color: #98afd9;
+    font-size: 0.75rem;
+    min-width: 6.25rem;
+}
+
+.value {
+    color: #f3f7ff;
+    font-weight: 600;
+}
+
+.moon-icon {
+    filter: drop-shadow(0 0 3px rgba(255, 177, 64, 0.55));
+    font-size: 1rem;
+}
+
+.panel {
+    background: rgba(13, 25, 50, 0.9);
+    border: 1px solid rgba(123, 154, 209, 0.25);
+    border-radius: 0.75rem;
+}
+
+.panel-title {
+    color: #ffb75d;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.chart-wrap {
+    height: 220px;
+}
+
+@media (max-width: 1024px) {
+    .chart-wrap {
+        height: 200px;
+    }
+}

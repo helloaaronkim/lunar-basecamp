@@ -1,0 +1,96 @@
+<template>
+    <lightning-card title="Lunar Mission Control" icon-name="utility:world">
+        <div class="dashboard-shell slds-p-around_medium">
+            <div class="toolbar slds-grid slds-wrap slds-grid_align-spread slds-m-bottom_medium">
+                <div class="slds-text-title_caps subtitle">Live Expedition Operations</div>
+                <lightning-button
+                    label="Refresh"
+                    title="Refresh dashboard"
+                    icon-name="utility:refresh"
+                    onclick={handleRefresh}
+                    variant="neutral"
+                ></lightning-button>
+            </div>
+
+            <template if:true={isLoading}>
+                <lightning-spinner alternative-text="Loading expedition dashboard" size="medium"></lightning-spinner>
+            </template>
+
+            <template if:false={isLoading}>
+                <template if:true={errorMessage}>
+                    <div class="slds-text-color_error slds-m-bottom_medium">{errorMessage}</div>
+                </template>
+
+                <template if:true={hasExpeditions}>
+                    <div class="cards-grid slds-grid slds-wrap slds-gutters">
+                        <template for:each={expeditions} for:item="expedition">
+                            <div key={expedition.id} class="slds-col slds-size_1-of-1 slds-large-size_1-of-2">
+                                <article class="mission-card slds-p-around_medium slds-m-bottom_medium">
+                                    <div class="mission-header slds-grid slds-grid_align-spread">
+                                        <h3 class="mission-title">{expedition.expeditionName}</h3>
+                                        <span class={expedition.complianceClass}>{expedition.complianceStatus}</span>
+                                    </div>
+
+                                    <div class="slds-grid slds-wrap slds-m-top_small">
+                                        <div class="slds-col slds-size_1-of-1 slds-medium-size_7-of-12">
+                                            <div class="explorer-row slds-grid slds-grid_vertical-align-center slds-m-bottom_small">
+                                                <div class="photo-placeholder">{expedition.explorerInitials}</div>
+                                                <div class="slds-m-left_small">
+                                                    <div class="label">Explorer</div>
+                                                    <div class="value">{expedition.explorerName}</div>
+                                                </div>
+                                            </div>
+                                            <div class="detail-row">
+                                                <span class="label">Launch Date</span>
+                                                <span class="value">{expedition.launchDateFormatted}</span>
+                                            </div>
+                                            <div class="detail-row">
+                                                <span class="label">T-Countdown</span>
+                                                <span class="value">{expedition.countdownText}</span>
+                                            </div>
+                                            <div class="detail-row slds-grid slds-grid_vertical-align-center">
+                                                <span class="moon-icon" aria-hidden="true">🌘</span>
+                                                <span class="label slds-m-left_x-small">Landing Site</span>
+                                                <span class="value slds-m-left_x-small">{expedition.landingSite}</span>
+                                            </div>
+                                            <div class="detail-row">
+                                                <span class="label">Gear Assigned</span>
+                                                <span class="value">{expedition.totalGearItems}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </template>
+                    </div>
+                </template>
+                <template if:false={hasExpeditions}>
+                    <div class="slds-text-body_regular">No active expeditions in Confirmed or In Progress status.</div>
+                </template>
+
+                <div class="slds-grid slds-wrap slds-gutters slds-m-top_medium">
+                    <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-2">
+                        <section class="panel slds-p-around_medium slds-m-bottom_medium">
+                            <h3 class="panel-title">Lunar Landing Map</h3>
+                            <lightning-map map-markers={mapMarkers} zoom-level="2" list-view="hidden"></lightning-map>
+                        </section>
+                    </div>
+                    <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-2">
+                        <section class="panel slds-p-around_medium slds-m-bottom_medium">
+                            <h3 class="panel-title">Bookings by Month</h3>
+                            <div class="chart-wrap">
+                                <canvas class="month-chart"></canvas>
+                            </div>
+                        </section>
+                        <section class="panel slds-p-around_medium">
+                            <h3 class="panel-title">Bookings by Landing Site</h3>
+                            <div class="chart-wrap">
+                                <canvas class="site-chart"></canvas>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>
