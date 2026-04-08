@@ -72,7 +72,14 @@
                     <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-2">
                         <section class="panel slds-p-around_medium slds-m-bottom_medium">
                             <h3 class="panel-title">Lunar Landing Map</h3>
-                            <lightning-map map-markers={mapMarkers} zoom-level="2" list-view="hidden"></lightning-map>
+                            <div class="map-wrap">
+                                <lightning-map
+                                    map-markers={mapMarkers}
+                                    zoom-level="2"
+                                    list-view="hidden"
+                                    class="mission-map"
+                                ></lightning-map>
+                            </div>
                         </section>
                     </div>
                     <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-2">

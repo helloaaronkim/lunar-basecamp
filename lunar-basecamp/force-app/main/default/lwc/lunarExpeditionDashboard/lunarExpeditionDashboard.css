@@ -99,11 +99,26 @@
     margin-bottom: 0.75rem;
 }
 
+.map-wrap {
+    height: 320px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.mission-map {
+    display: block;
+    height: 100%;
+}
+
 .chart-wrap {
     height: 220px;
 }
 
 @media (max-width: 1024px) {
+    .map-wrap {
+        height: 260px;
+    }
+
     .chart-wrap {
         height: 200px;
     }
