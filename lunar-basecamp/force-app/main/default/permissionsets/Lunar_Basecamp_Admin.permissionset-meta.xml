@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Admin-level access for all Lunar Basecamp custom objects, records, and custom fields.</description>
+    <classAccesses>
+        <apexClass>LunarExpeditionDashboardController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <fieldPermissions>
         <editable>true</editable>
         <field>Lunar_Explorer__c.Full_Name__c</field>
